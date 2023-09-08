@@ -26,4 +26,4 @@ async def create_user(user: User):
 
 @app.get("/users/{id}")
 async def get_user(id: int):
-    return {"user":users[id]}
+    return {"user": users[id]}
